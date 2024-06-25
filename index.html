@@ -1,0 +1,158 @@
+<html>
+<head>
+<title> CSS Website Layout</title>
+<style>
+	body {
+		margin: 0;
+	}
+	/*Style the header*/
+	.header{
+		background: url(a3.jpeg);
+		padding: 20px;
+		color: black;
+		text-align: center;
+	}
+	header h1{
+		font-size: 50px;
+	}
+	*{
+		box-sizing: border-box;
+	}
+	body{
+		font-family: Arial;
+		padding:10px;
+		background: darkred;
+	}
+	.topnav{
+		overflow: hidden;
+		background-color: #aaa;
+	}
+	.topnav a{
+		float: left;
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+
+	}
+	.topnav a:hover {
+		background-color: black;
+		color: yellow;
+	}
+	.leftcolumn {
+		float:left;
+		width:75%;
+		color: black;
+		background-color: darkred;
+	}
+	.rightcolumn {
+		float:left;
+		width:25%;
+		background-color: darkred;
+		padding-left: 5px;
+	}
+	fakeimg {
+		background-color: darkred;
+		width:100%;
+		padding:20px;
+
+	}
+	.card{
+		background-color: darkred;
+		padding:20px;
+		margin-top: 20px;
+	}
+	.row::after{
+		content:"";
+		display:table;
+		clear:both;
+	}
+	.footer{
+		padding:20px;
+		text-align: center;
+		background:#ddd;
+		margin-top: 20px;
+	}
+	@media screen and (max-width:800px){
+		.leftcolumn, .rightcolumn{
+			width:100%;
+			padding:0;
+		}
+	}
+	@media screen and (max-width:400px){
+		.topnav a{
+			float:none;
+			width:100%;
+		}
+	}
+</style>
+</head>
+	<body>
+		<div class="header">
+			<h1>AVENGERS</h1>
+			<p></p>
+		</div>
+		<div class="topnav">
+		<a href="index.html">AVENGERS</a>
+		<a href="index.html">XMEN</a>
+		<a href="index.html">INHUMAN</a>
+		
+	</div>
+	<div class="row">
+		<div class="leftcolumn">
+			<div class="card">
+				<h2>CAPTAIN AMERICA</h2>
+				<p>STEVEN ROGERS</p>
+				<img src="C.jpeg" style="width:30%;">
+				<p>Captain America adalah sosok pahlawan super fiktif dari Marvel Comics. Memiliki musuh besar bernama Salwi Ackerman dan Baron Zemo, Rogers adalah tentara AS yang tidak memiliki kemampuan sama sekali. Berkat bantuan Dr. Joshef Reinstein dengan serum super soldiernya. Pahlawan yang lahir pada tahun 1920 ini menjadi pahlawan perang Amerika Serikat saat menghadapi sekutu NAZI yang dipimpin oleh Adolf Hitler. Dibuat oleh komikus Joe Simon dan Jack Kirby, karakter pertama kali muncul di Captain America Comics # 1 (cover Maret 1941) dari Timely Comics, pendahulu dari Marvel Comics.
+Captain America memakai kostum yang dikenakan bendera bermotif bendera Amerika Serikat, dan dipersenjatai dengan perisai hampir tidak bisa dihancurkan saat ia melempar pada musuh. Karakter ini biasanya digambarkan sebagai alter ego dari Steve Rogers, seorang pemuda lemah yang ditingkatkan ke puncak kesempurnaan manusia oleh serum eksperimental untuk membantu upaya pemerintah Amerika Serikat dalam Perang Dunia II. Menjelang akhir perang, ia terjebak dalam es dan selamat dalam animasi ditangguhkan sampai dia dihidupkan kembali pada hari ini. Meskipun Captain America sering berjuang untuk mempertahankan cita-citanya sebagai seorang pria yang keluar dari waktunya dengan realitas modern, ia tetap menjadi tokoh yang sangat dihormati di masyarakat yang meliputi menjadi pemimpin lama dari Avengers.Captain America adalah yang pertama karakter Marvel Comics telah muncul di media luar komik dengan rilis dari seri film tahun 1944, Captain America. Sejak itu, karakter telah ditampilkan dalam film lain dan serial televisi, baru-baru ini di Marvel Cinematic Universe (MCU) diperankan oleh Chris Evans di Captain America: The First Avenger, The Avengers, Captain America: The Winter Soldier, Avengers: Age of Ultron, Captain America: Civil War, dan film Avengers: Infinity War (2018) dan sekuelnya untitled sequel (2019).Captain America berada di peringkat enam pada IGN "Top 100 Comic Book Heroes of All Time" pada tahun 2011,[2] peringkat kedua dalam daftar mereka "The Top 50 Avengers" tahun 2012,dan kedua di daftar "Top 25 best Marvel superheroes" pada tahun 2014.</p>
+			</div>
+			<div class="card">
+				<h2>THOR ODINSON</h2>
+				<p>THOR</p>
+				<img src="t.jpeg" style="width:30%;">
+				<p>Dalam Mitologi Nordik, Thor (bahasa Norwegia kuno: Þórr; bahasa Inggris kuno: Þunor) adalah "si janggut berambut merah" yang bergelar sebagai Dewa petir. Thor adalah putra Dewa Odin dan raksasa Jörð. Selama Ragnarök, Thor dan Jörmungandr akan saling membunuh satu sama lain. Menurut Mitologi Nordik, Thor adalah dewa yang memiliki kekuatan hebat. Ia selalu berseteru dengan para Jotun sehingga bertarung dengan mereka. Thor merupakan salah satu dewa Nordik yang memiliki kekuatan besar. Dengan kekuatannya, ia berusaha melindungi Asgard dan Midgard. Ia juga dikenal sebagai Dewa Petir. Ayah Thor adalah Dewa Odin dengan ibunya seorang raksasa wanita bernama Jord. Istrinya bernama Sif, yang menurut mitologi memiliki rambut emas yang dibuat oleh Dwarf untuknya karena Loki telah memotong rambutnya. Dari hubungannya dengan Járnsaxa, seorang Jotun wanita, ia memiliki dua putra.</p>
+			</div>
+				<div class="card">
+				<h2>SPIDERMAN</h2>
+				<p>PETER PARKER</p>
+				<img src="S2.jpeg" style="width:30%;">
+				<p>Spider-Man (bahasa Indonesia: Manusia Laba-laba), adalah pahlawan super fiktif dari Marvel Comics yang diciptakan oleh penulis Stan Lee dan artis Steve Ditko. Ia pertama muncul dalam Amazing Fantasy #15 (Agustus 1962). Ia telah menjadi salah satu pahlawan super yang paling terkenal di dunia. Tobey Maguire, Aktor yang pertama kali memerankan sosok manusia laba-laba dari komik dan layar kaca ke layar lebar. Pria kelahiran 27 Juni 1975 tampil perdana dalam Spider-Man (2002). Ketika komik yang menampilkan Spider-Man pertama kali muncul di awal 1960-an, para pembaca usia remaja langsung dapat terhubung ke peran identitas ganda sang superhero. Serial Spider-Man menceritakan Peter Parker, siswa SMA di balik identitas Spider-Man, seorang remaja yang di gambarkan masih labil dan penuh obsesi, korban bully dan di selimuti kesepian karena dalam kisah origin nya, Peter Parker adalah seorang yatim piatu." sehingga pembaca muda bisa terhubung.[1] Spider-Man di gambarkan sebagai superhero remaja yang mandiri, tidak seperti pahlawan remaja sebelumnya seperti Bucky dan Robin, Spider-Man tidak memiliki mentor superhero seperti Captain America dan Batman; dengan demikian dia harus belajar secara mandiri dan menyadari bahwa "seiring datang nya kekuatan besar, di sana juga ada tanggung jawab yang besar"– kata kata yang selalu tertulis di panel akhir setiap komik Spiderman yang selalu di kaitkan dengan sang paman Ben parker. Spider-Man adalah salah satu superhero paling populer dan sukses secara komersial.[2] Sebagai karakter unggulan Marvel dan maskot perusahaan, ia telah muncul dalam bentuk yang tak terhitung jumlahnya dari media, termasuk beberapa serial televisi animasi dan live-action, sindikasi strip koran komik, dan dalam serangkaian film. Karakter ini pertama kali digambarkan dalam live action oleh Nicholas Hammond dalam film televisi Spider-Man pada tahun 1977. Dalam film, Spider-Man pertama kali diperankan oleh aktor Tobey Maguire (2002–2007) dan Andrew Garfield (2012–2014),[3] sementara Tom Holland memerankan karakter Peter Parker di Marvel Cinematic Universe, pertama kali muncul di Captain America: Civil War pada tahun 2016. Reeve Carney berperan sebagai Spider-Man di musikal broadway yang berjudul Spider-Man 2010: Turn Off the Dark.[4] Spider-Man telah diterima dengan baik sebagai superhero dalam buku komik dan sebagai salah satu karakter buku paling terkenal sepanjang masa bersama Marvel Comic</p>.
+			</div>
+			<div class="card">
+				<h2>SCARLET WITCH</h2>
+				<p>WANDA MAXIMOFF</p>
+				<img src="sc2.jpeg" style="width:30%;">
+				<p>Scarlet Witch, yang memiliki nama asli Wanda Maximoff, juga dikenal sebagai Wanda Frank, Ana Maximoff, dan Wanda Magnus. Scarlet Witch adalah karakter fiksi pahlawan super yang muncul dalam buku terbitan Marvel Comics. Karakter ini kali pertama muncul dalam seri X-Men #4 (Maret 1964) yang dibuat oleh Stan Lee dan Jack Kirby. Sejak memulai debutnya di Silver Age of Comic Books, Scarlet Witch telah tampil selama lima dekade berturut-turut di Marvel, membintangi dua judul solo (seri terbatas) bersama suaminya Vision dan sebagai anggota tim pahlawan super reguler Avengers. Karakter ini juga muncul dalam produk Marvel lain, seperti film animasi, permainan arkade, permainan video, serial televisi dan mainan seperti figur karakter dan kartu koleksi. Scarlet Witch menempati peringkat ke-97 dalam daftar "200 Karakter Buku Komik Terhebat" ("200 Greatest Comic Book Characters of All Time") oleh Wizard[1] dan peringkat ke-14 dalam daftar "100 Karakter Wanita Terseksi dalam komik" ("100 Sexiest Women in Comics") oleh Comics Buyer's Guide.Scarlet Witch awalnya dianggap sebagai seorang mutan yang memiliki kemampuan untuk memanipulasi probabilitas melalui "sihir"-nya (hex) (sering mewujudkan fisik sebagai "bola sihir" (hex ball atau hex bolt)). Jarak serangan sihirnya relatif dekat dan arahnya terbatas hanya kepada yang berada di hadapannya. Menggunakan sihir membutuhkan posisi dan konsentrasi yang tinggi, meskipun gerakannya lebih ditujukan untuk fokus bukannya untuk akurasi. Sihir tidak selalu efektif, terutama jika Wanda telah lelah atau menggunakan kekuatannya secara berlebihan. Lama-kelamaan, sihir Wanda bisa menjadi bumerang, menyebabkan probabilitas untuk melawan dirinya atau membatalkan sihir sebelumnya.</p>
+			</div>
+			<div class="card">
+				<h2>CAPTAIN MARVEL</h2>
+				<p>CAROL LAWSON</p>
+				<img src="cm.jpeg" style="width:30%;">
+				<p>Captain Marvel adalah film superhero Amerika Serikat tahun 2019 yang disutradarai oleh Anna Boden dan Ryan Fleck dan diproduseri oleh Kevin Feige. Ini adalah film kedua puluh satu dari seri Marvel Cinematic Universe. Naskah film ini ditulis oleh Anna Boden, Lili Qadriana, Ryan Fleck, Geneva Robertson-Dworet dan Jac Schaeffer, sementara ceritanya ditulis oleh Nicole Perlman, Joe Schrapnel dan Anna Waterhouse berdasarkan komik Carol Danvers karya Roy Thomas dan Gene Colan. Film ini dibintangi oleh Brie Larson, Samuel L. Jackson, Ben Mendelsohn, Djimon Hounsou, Lee Pace, Lashana Lynch, Gemma Chan, Annette Bening, Clark Gregg dan Jude Law. Pengembangan film dimulai pada bulan Mei 2013. Film ini secara resmi diumumkan pada Oktober 2014 sebagai film superhero pertama yang dipimpin perempuan Studios Marvel. Nicole Perlman dan Meg LeFauve dipekerjakan sebagai tim penulis pada bulan April berikutnya setelah menyerahkan karakter secara terpisah. Cerita ini meminjam elemen-elemen dari alur cerita buku komik Roy Thomas tahun 1971 "Kree – Skrull War". Larson diumumkan sebagai Danvers di San Diego Comic-Con 2016, dengan Boden dan Fleck disewa untuk mengarahkan pada April 2017. Pemotretan lokasi dimulai pada Januari 2018, dengan fotografi utama dimulai pada bulan Maret di California sebelum diakhiri di Louisiana pada Juli 2018. Jackson dan Gregg — yang, antara lain, mengulangi peran mereka dari film MCU sebelumnya — secara digital ditiadakan dalam pasca-produksi hingga mencerminkan pengaturan film tahun 1990-an. Captain Marvel ditayangkan perdana di London pada 27 Februari 2019, dan dirilis secara teatrikal di Amerika Serikat pada 8 Maret. Film ini mendapat lebih dari $ 1,1 miliar di seluruh dunia, menjadikannya film superhero yang dipimpin oleh wanita pertama yang melampaui angka miliaran dolar. Ini peringkat sebagai film terlaris kelima tertinggi tahun 2019, dan menjadi film superhero terlaris kesembilan tertinggi dan film terlaris ke-22 secara keseluruhan. Film ini menerima pujian untuk penampilan para pemeran, terutama Larson. Sebuah sekuel sedang dalam pengembangan.</p>
+			</div>
+		</div>
+		<div class="rightcolumn">
+			<div class="card">
+				<h2>ABOUT ME</h2>
+				<img src="a5.jpeg" style=" width:100%;">
+			    <h3>NAMA: DIMAS GUSTIANA</h3>
+			    <h3>KELAS: XI RPL 2</h3>
+			    <h3>PROJECT TENTANG: CHARACTER AVENGERS BY MARVEL STUDIOS</h3>
+			</div>
+			<div class="card">
+				<h3>POPULAR POST</h3>
+				<img src="a.jpeg" style=" width:100%;">
+				<img src="a4.jpeg" style=" width:100%;">
+				<img src="a2.jpeg" style=" width:100%;">
+				</div>
+				<div class="card">
+					<h3>Follow Me</h3>
+					<h3>INSTA: dimasgustiana09</h3>
+				</div>
+			</div>
+		</div>
+		</div>
+	</body>
+	</html>
